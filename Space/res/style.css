@@ -1,0 +1,159 @@
+* {
+    -bg-color-one : #122938;
+    -bg-color-two : black;
+    -bg-color-three : #122938;
+    -font-color : #743F39;
+    -text-field-prompt-text : #1659DC;
+    -text-field-border-color : black;
+    -icon-color : white;
+}
+
+.first_time_use_pane
+{
+    -fx-background-color: -bg-color-two;
+}
+
+
+.dashboard_right_split_pane > .split-pane-divider
+{
+    /*-fx-background-color: -bg-color-one;*/
+	-fx-background-image: url("20210203001122_1.jpg");
+}
+
+.dashboard_left_split_pane > .split-pane-divider
+{
+    -fx-background-color: black;
+}
+
+
+Label
+{
+    -fx-text-fill : -font-color ;
+}
+
+.root {
+
+    -fx-focus-color: -fx-accent;
+    -fx-base:  -bg-color-one;
+    -fx-background-color:  transparent;
+	-fx-background-image: url("20200114231101_1.jpg");
+    -fx-text-fill: -font-color ;
+}
+
+.ikonli-font-icon
+{
+    -fx-icon-color: -icon-color;
+}
+
+.plugins_pane{
+    -fx-background-color :  transparent;
+	-fx-background-image: url("20210203001122_1.jpg");
+}
+
+.client_and_profile_selector_pane  {
+    -fx-background-color : transparent;
+	-fx-background-image: url("20210203001122_1.jpg");
+}
+
+.action_grid_pane_parent {
+    -fx-background: black;
+    -fx-border-color:-bg-color-two;
+}
+
+.action_grid_pane {
+    /*-fx-background-color: pink;*/
+	-fx-background-image: url("20210203001122_1.jpg");
+	-fx-background-repeat:stretch;
+    -fx-background-size:  100%  100%;
+    -fx-background-position: bottom ;
+}
+
+.plugins_pane_each_plugin_box_parent, .plugins_pane_each_plugin_box
+{
+    -fx-background-color: transparent;
+	/*-fx-background-image: url("20201223030159_1.jpg");*/
+}
+
+.action_details_pane_scroll_pane {
+   -fx-background:  -bg-color-three ;
+   -fx-border-color: -bg-color-three ;
+}
+
+.action_details_pane
+{
+    -fx-background-color:  -bg-color-three ;
+	-fx-background-image: url("20210203001122_1.jpg");
+}
+
+.action_details_pane_scroll_pane .viewport {
+       -fx-background-color: transparent;
+}
+
+.action_details_pane_scroll_pane {
+   -fx-background-color: transparent;
+
+}
+
+
+.plugins_settings_scroll_pane, .themes_settings_scroll_pane, .clients_settings_scroll_pane
+{
+    -fx-background: transparent;
+	-fx-background-image: url("20200114231101_1.jpg");
+    -fx-border-color:-bg-color-one;
+}
+
+.text-field
+{
+    -fx-text-fill: -font-color ;
+    -fx-prompt-text-fill: -text-field-prompt-text;
+    -fx-background-color : -bg-color-one;
+    -fx-border-width : 0 0 1 0;
+    -fx-border-color: -text-field-prompt-text;
+}
+
+.about_license_text_area {
+    -fx-text-fill:-font-color ;
+}
+
+.about_license_text_area {
+    text-area-background: blue ;
+}
+
+.about_license_text_area .content {
+    -fx-background-color: -bg-color-two;
+}
+
+.alert_pane
+{
+    -fx-background-color : -bg-color-two;
+    -fx-border-color : -bg-color-two;
+}
+
+.alert_content_pane
+{
+    -fx-background-color: -bg-color-two;
+    -fx-padding: 5;
+}
+
+.alert_scroll_pane
+{
+    -fx-background:  -bg-color-two;
+    -fx-border-color:-bg-color-two;
+}
+
+.alert_button_bar
+{
+    -fx-background-color:-bg-color-two;
+}
+
+.combo-box .cell
+{
+    -fx-text-fill: -font-color;
+    -fx-background-color : -bg-color-two;
+}
+
+.combo-box
+{
+    -fx-text-fill: -font-color;
+    -fx-background-color : -bg-color-two;
+}
